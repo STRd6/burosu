@@ -1,5 +1,5 @@
-bro = Bro()
-girl = Girl()
+window.bro = Bro()
+window.girl = Girl()
 
 dialog = null
  
