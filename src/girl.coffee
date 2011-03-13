@@ -3,3 +3,5 @@ Girl = (I) ->
   
   $.reverseMerge I,
     sprite: Sprite.fromPixieId 12259
+    
+  self = GameObject(I)
