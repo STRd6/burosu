@@ -11,4 +11,6 @@ Game.update () ->
   girl.update()
 
 Game.keydown 'space', ->
-  log "hey baby, what are your deep V lvls?"
+  dialog = DialogBox(
+    text: "Hey baby. What are your deep V lvls?"
+  )
