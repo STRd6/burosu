@@ -1,7 +1,7 @@
 window.bro = Bro()
 window.girl = Girl()
 
-Control(
+control = Control(
   player: bro
 )
 
