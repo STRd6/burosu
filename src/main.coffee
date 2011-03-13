@@ -10,7 +10,6 @@ Game.draw (canvas) ->
   dialog?.draw(canvas) unless dialog?.complete()
 
 Game.update () ->
-  control.update()
   bro.update()
   girl.update()
   dialog?.update()
