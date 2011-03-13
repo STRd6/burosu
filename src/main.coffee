@@ -5,8 +5,8 @@ dialog = null
  
 Game.draw (canvas) ->
   canvas.fill "#fff"
-  bro.draw(canvas)
   girl.draw(canvas)
+  bro.draw(canvas)
   dialog?.draw(canvas) unless dialog?.complete()
 
 Game.update () ->
