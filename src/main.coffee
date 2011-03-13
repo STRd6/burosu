@@ -1,7 +1,7 @@
 bro = Bro()
 girl = Girl()
 
-
+dialog = null
  
 Game.draw (canvas) ->
   canvas.fill "#F00"
