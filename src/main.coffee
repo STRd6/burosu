@@ -13,7 +13,7 @@ Game.draw (canvas) ->
     if bro.bSpray() > 1
       dialog = DialogBox(
         text: "Over 69,000!"
-        text: "pink"
+        textColor: "pink"
       )
     dialog = null
   else
