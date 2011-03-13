@@ -9,6 +9,8 @@ Game.draw (canvas) ->
   bro.draw(canvas)
   
   if dialog?.complete() && Game.keydown 'space'
+    dialog = null
+  else
     dialog?.draw(canvas)
 
 Game.update () ->
