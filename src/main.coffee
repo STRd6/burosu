@@ -7,7 +7,9 @@ Game.draw (canvas) ->
   canvas.fill "#fff"
   girl.draw(canvas)
   bro.draw(canvas)
-  dialog?.draw(canvas) unless dialog?.complete()
+  
+  if dialog?.complete() && Game.keydown 'space'
+    dialog?.draw(canvas)
 
 Game.update () ->
   bro.update()
