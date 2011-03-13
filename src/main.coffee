@@ -4,7 +4,7 @@ girl = Girl()
 dialog = null
  
 Game.draw (canvas) ->
-  canvas.fill "#F00"
+  canvas.fill "#fff"
   bro.draw(canvas)
   girl.draw(canvas)
   dialog?.draw(canvas)
