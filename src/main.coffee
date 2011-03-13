@@ -7,7 +7,7 @@ Game.draw (canvas) ->
   canvas.fill "#fff"
   bro.draw(canvas)
   girl.draw(canvas)
-  dialog?.draw(canvas)
+  dialog?.draw(canvas) unless dialog?.complete()
 
 Game.update () ->
   bro.update()
