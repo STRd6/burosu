@@ -12,7 +12,7 @@ Game.draw (canvas) ->
 Game.update () ->
   bro.update()
   girl.update()
-  dialog?.update()
+  dialog?.update() unless dialog?.complete()
 
 Game.keydown 'space', ->
   dialog = DialogBox(
