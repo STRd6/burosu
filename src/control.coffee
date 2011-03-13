@@ -31,5 +31,4 @@ Control = (I) ->
   )
       
   update: ->
-    log currentVelocity
     I.player.move(currentVelocity)
