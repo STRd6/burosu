@@ -1,7 +1,9 @@
 window.bro = Bro()
 window.girl = Girl()
 
-Control(bro)
+Control(
+  player: bro
+)
 
 dialog = null
  
