@@ -9,8 +9,8 @@ Game.draw (canvas) ->
   bro.draw(canvas)
   
   if dialog?.complete() && Game.keydown 'space'
+    log "got here"
     if bro.bSpray() > 1
-      log bro.bSpray()
       dialog = DialogBox(
         text: "Over 69,000!"
         text: "pink"
