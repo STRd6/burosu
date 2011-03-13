@@ -1,6 +1,8 @@
 window.bro = Bro()
 window.girl = Girl()
 
+Control(bro)
+
 dialog = null
  
 Game.draw (canvas) ->
