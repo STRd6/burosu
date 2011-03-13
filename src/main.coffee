@@ -10,5 +10,5 @@ Game.update () ->
   bro.update()
   girl.update()
 
-Game.keydown 'space' ->
+Game.keydown 'space', ->
   log "hey baby, what are your deep V lvls?"
