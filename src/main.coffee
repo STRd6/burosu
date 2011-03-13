@@ -10,7 +10,7 @@ Game.draw (canvas) ->
   
   if dialog?.complete() && Game.keydown 'space'
     dialog = null
-    if bro.bSpray() > 1
+    if bro.bSpray() > 1 && dialog == null
       dialog = DialogBox(
         text: "Over 69,000!"
         textColor: "pink"
