@@ -2,9 +2,12 @@ Bro = (I) ->
   I ||= {}
   
   $.reverseMerge I,
+    speed: 4
     sprite: Sprite.fromPixieId 12256
     vDepth: 1
     bSpray: 1
+    
+  currentSpeed = I.speed
 
   stop = ->
     I.velocity = Point(0, 0)  
