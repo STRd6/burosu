@@ -13,6 +13,8 @@ Bro = (I) ->
     I.velocity = Point(0, 0)  
  
   self = GameObject(I) 
+  
+  self.attrAccessor "bSpray"
 
   self.bind 'step', ->
     if keydown.shift then currentSpeed = I.speed * 2 else currentSpeed = I.speed
